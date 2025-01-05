@@ -14,6 +14,11 @@ epoch = 2.5
 path = 'contracts/incentive-token.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.observation-data]
+path = 'contracts/observation-data.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
