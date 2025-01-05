@@ -19,6 +19,11 @@ epoch = 2.5
 path = 'contracts/observation-data.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.space-telescope-integration]
+path = 'contracts/space-telescope-integration.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
